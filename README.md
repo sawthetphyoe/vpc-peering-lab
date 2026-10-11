@@ -1,3 +1,4 @@
+
 # AWS VPC peering lab
 
 Three EC2 services run in separate VPCs in one AWS account and Region:
@@ -113,3 +114,5 @@ terraform apply destroy.tfplan
 Separately remove any remaining builder/test instances and unused security groups. When finished with the AMI, deregister it and delete its backing snapshots. Terraform does not manage these manually created resources.
 
 Commit `.terraform.lock.hcl`. Keep state, real `terraform.tfvars`, saved plans, and private keys out of Git; `.gitignore` excludes them.
+
+<img width="1456" height="944" alt="Screenshot 2026-10-11 at 5 11 13 PM" src="https://github.com/user-attachments/assets/e4ce5f88-4794-4301-bce5-fdaa0bdb2944" />
